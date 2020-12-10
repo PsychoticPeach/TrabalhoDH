@@ -1,0 +1,41 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container {
+    display: grid;
+    grid-template-rows: 20vw repeat(2, 80vh) 35vw 55vw ;
+    grid-template-columns: repeat(2, minmax(min-content, 14rem)) 1fr;
+}
+.header{
+    background: white;
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+.projeto{
+    background: white;
+    grid-column: 1/-1;
+    grid-row: 3;
+}
+.story{
+    background: white;
+    grid-column: 1/-1;
+    grid-row: 2;
+}
+.getstarted1{
+    background: green;
+    grid-column: 1/3;
+    grid-row: 4;
+}
+.getstarted2{
+    background: green;
+    grid-column: 3/4;
+    grid-row: 4;
+}
+.footer{
+    background: orange;
+    grid-column: 1/-1;
+    grid-row: 5;
+}
+body{
+    padding: 30px;
+}
