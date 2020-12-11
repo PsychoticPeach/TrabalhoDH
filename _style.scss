@@ -3,56 +3,69 @@
 
 .container {
     display: grid;
-    grid-template-rows: 20vw repeat(2, 80vh) 35vw 55vw ;
-    grid-template-columns: repeat(2, minmax(min-content, 14rem)) 1fr;
+    grid-template-rows: 10vw 80vh 110px 80vh 35vw 55vw ;
+    grid-template-columns: repeat(2, minmax(min-content, 20rem)) 1fr;
 }
 .header{
+    padding: 70px;
     background: white;
-    grid-column: 1/-1;
+    grid-column: 1/6;
     grid-row: 1;
 }
+.curve{
+    grid-column: 1/6;
+    grid-row: 3;
+    background-image: url(bg-curve-desktop.svg);
+    z-index: 1;
+}
 .projeto{
+    padding: 70px;
     background: white;
     grid-column: 1/-1;
-    grid-row: 3;
+    grid-row: 7;
 }
 .story{
+    padding-left: 70px;
     background: white;
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row: 2;
 }
 .story2{
-    background: pink;
-    grid-column: 3/4;
+    padding-right: 70px;
+    height: 100%;
+    background: white;
+    grid-column: 4/6;
     grid-row: 2;
 }
 .getstarted1{
-    background: green;
-    grid-column: 1/3;
+    padding-left: 70px;
+    background: $light-grayish-blue;
+    grid-column: 1/4;
     grid-row: 4;
 }
 .getstarted2{
-    background: green;
-    grid-column: 3/4;
+    padding-right: 70px;
+    background: $light-grayish-blue;
+    grid-column: 4/6;
     grid-row: 4;
 }
 .footer{
+    padding: 70px;
     background: orange;
     grid-column: 1/-1;
     grid-row: 6;
 }
 .earlyaccess{
+    padding: 70px;
     background: pink;
     grid-column: 1/-1;
     grid-row: 5;
 }
 body{
-    padding: 70px;
     font-family: $font-primary;
     font-weight: 400;
 }
 .header{
-
     font-family: $font-primary;
     font-weight: 400, 700;
 }
@@ -62,10 +75,9 @@ body{
     border: none;
     border-radius: 10px;
     background-color: inherit;
-    padding: 14px,28px;
     font-size:18px;
     cursor: pointer;
-    transition-duration: 0.4s;
+    transition-duration: 0.1s;
 
 }
 .btn:hover{
@@ -76,8 +88,67 @@ body{
     background-color: inherit;
     transform: translateY(2px);
 }
-.butn{
+.btn2{
     border: none;
     background-color: inherit;
     cursor: pointer;
+}
+.illustration-1{
+    max-width: 80%;
+    max-height: 100vh;
+    float: right;
+    margin: auto;
+}
+.arrow{
+    width: 100%;
+}
+.illustration-2{
+    max-width: 80%;
+    max-height: 100vh;
+    float: right;
+    margin: auto;
+}
+h2{
+    font-size: 39px;
+    color: $very-dark-blue-1;
+    margin-bottom: 4rem;
+    margin-block-end: auto;
+}
+h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.email{
+    border: solid 1px;
+    border-color: $light-gray;
+    border-radius: 3px;
+    font-size: large;
+    height: 45px;
+}
+.btn3{
+    border: none;
+    border-radius: 3px;
+    background: $bright-blue;
+    font-family: $font-primary;
+    color: $light-grayish-blue;
+    font-size: 14px;
+    height: 45px;
+    width: 200px;
+    margin: 15px;
+    font-weight: 600;
+}
+.btn3:hover{
+    cursor: pointer;
+}
+.btn4{
+    border: none;
+    background: inherit;
+    height: 22px;
+    width: 30px;
+}
+.btn4:hover{
+    cursor:pointer;
+}
+.isto{
+    color: $moderate-cyan;
 }
