@@ -22,6 +22,9 @@
     margin-top: 30px;
     margin-left: 65px;
 }
+.container3{
+    width:60%;
+}
 .header{
     padding: 70px;
     background: white;
@@ -81,6 +84,7 @@
     padding-right: 70px;
     background: $desaturated-blue;
     grid-column: 3/6;
+    grid-row: 5;
 }
 body{
     font-family: $font-primary;
@@ -145,10 +149,14 @@ h2{
 .h2{
     margin-top: 100px;
     margin-bottom: 30px;
+    color: white;
 }
 h3{
     font-size: 18px;
     font-weight: 400;
+}
+.h3{
+    color: white;
 }
 h1{
     font-size: 16px;
@@ -173,6 +181,15 @@ h5{
     font-size: large;
     height: 45px;
 }
+.email2{
+    margin-left: 300px;
+    margin-top: 110px;
+    border: solid 1px $light-gray;
+    border-radius: 3px;
+    font-size: large;
+    height: 45px;
+    box-shadow: 5px 10px 20px rgba($color: #3e3e53, $alpha: 1.0);
+}
 .btn3{
     border: none;
     border-radius: 3px;
@@ -187,6 +204,22 @@ h5{
 }
 .btn3:hover{
     cursor: pointer;
+    
+}
+.btn6{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background: $bright-blue;
+    font-family: $font-primary;
+    color: $light-grayish-blue;
+    font-size: 14px;
+    height: 45px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 300px;
+    font-weight: 600;
+    box-shadow: 5px 10px 20px rgba($color: #3e3e53, $alpha: 1.0);
 }
 .btn4{
     margin: 0;
@@ -194,8 +227,6 @@ h5{
     left: 570%;
     border: none;
     background: inherit;
-}
-.btn4:hover{
     cursor:pointer;
 }
 .btn5{
@@ -206,8 +237,6 @@ h5{
     background: inherit;
     height: 25px;
     width: 200px;
-}
-.btn5:hover{
     cursor:pointer;
 }
 .letras{

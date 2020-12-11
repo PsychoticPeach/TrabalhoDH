@@ -36,6 +36,10 @@
   margin-left: 65px;
 }
 
+.container3 {
+  width: 60%;
+}
+
 .header {
   padding: 70px;
   background: white;
@@ -129,6 +133,8 @@
   -ms-grid-column: 3;
   -ms-grid-column-span: 3;
   grid-column: 3/6;
+  -ms-grid-row: 5;
+  grid-row: 5;
 }
 
 body {
@@ -207,11 +213,16 @@ h2 {
 .h2 {
   margin-top: 100px;
   margin-bottom: 30px;
+  color: white;
 }
 
 h3 {
   font-size: 18px;
   font-weight: 400;
+}
+
+.h3 {
+  color: white;
 }
 
 h1 {
@@ -241,6 +252,17 @@ h5 {
   height: 45px;
 }
 
+.email2 {
+  margin-left: 300px;
+  margin-top: 110px;
+  border: solid 1px #bfbfbf;
+  border-radius: 3px;
+  font-size: large;
+  height: 45px;
+  -webkit-box-shadow: 5px 10px 20px #3e3e53;
+          box-shadow: 5px 10px 20px #3e3e53;
+}
+
 .btn3 {
   border: none;
   border-radius: 3px;
@@ -258,15 +280,29 @@ h5 {
   cursor: pointer;
 }
 
+.btn6 {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background: #3065f8;
+  font-family: "Open Sans", sans-serif;
+  color: #f6f6fe;
+  font-size: 14px;
+  height: 45px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 300px;
+  font-weight: 600;
+  -webkit-box-shadow: 5px 10px 20px #3e3e53;
+          box-shadow: 5px 10px 20px #3e3e53;
+}
+
 .btn4 {
   margin: 0;
   position: relative;
   left: 570%;
   border: none;
   background: inherit;
-}
-
-.btn4:hover {
   cursor: pointer;
 }
 
@@ -278,9 +314,6 @@ h5 {
   background: inherit;
   height: 25px;
   width: 200px;
-}
-
-.btn5:hover {
   cursor: pointer;
 }
 
