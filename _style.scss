@@ -62,7 +62,10 @@
     grid-row: 6;
 }
 .header{
-    padding: 4%;
+    font-family: $font-primary;
+    font-weight: 400, 700;
+    margin-left: 4%;
+    margin-top: 4%;
     background: white;
     grid-column: 1/6;
     grid-row: 1;
@@ -120,15 +123,11 @@ body{
     font-family: $font-primary;
     font-weight: 400;
 }
-.header{
-    font-family: $font-primary;
-    font-weight: 400, 700;
-}
 .btn{
-    margin:2%;
+    margin: 1%;
     float: right;
     border: none;
-    font-size:18px;
+    font-size:130%;
     cursor: pointer;
     outline: none;
     transition-duration: 0.1s;
@@ -312,7 +311,7 @@ h5{
     border-bottom: 1px solid $moderate-cyan;
     background: inherit;
     height: 3%;
-    width: 11%;
+    width: 14%;
     cursor:pointer;
     outline: none;
 }

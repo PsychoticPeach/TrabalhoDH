@@ -98,7 +98,10 @@
 }
 
 .header {
-  padding: 4%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400, 700;
+  margin-left: 4%;
+  margin-top: 4%;
   background: white;
   -ms-grid-column: 1;
   -ms-grid-column-span: 5;
@@ -191,16 +194,11 @@ body {
   font-weight: 400;
 }
 
-.header {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400, 700;
-}
-
 .btn {
-  margin: 2%;
+  margin: 1%;
   float: right;
   border: none;
-  font-size: 18px;
+  font-size: 130%;
   cursor: pointer;
   outline: none;
   -webkit-transition-duration: 0.1s;
@@ -434,7 +432,7 @@ h5 {
   border-bottom: 1px solid #3c9f8f;
   background: inherit;
   height: 3%;
-  width: 11%;
+  width: 14%;
   cursor: pointer;
   outline: none;
 }
