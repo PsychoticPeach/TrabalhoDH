@@ -8,10 +8,10 @@
 }
 .container1{
     background-color: white;
-    width: 50%;
+    width: 60%;
     border: 5px;
-    padding: 40px;
-    margin-top: 40px;
+    padding: 7%;
+    margin-top: 5%;
     border-radius: 10px;
     box-shadow: 5px 10px 20px $light-gray;
 }
@@ -19,15 +19,15 @@
     background-color: white;
     width: 70%;
     border: 5px;
-    margin-top: 30px;
-    margin-left: 65px;
+    margin-top: 10%;
+    margin-left: 20%;
 }
 .container3{
     width:60%;
 }
 .about{
-    margin-top: 200px;
-    margin-left: 200px;
+    margin-top: 62%;
+    margin-left: 60%;
     align-items: right;
     display: flex;
     align-items: right;
@@ -35,25 +35,25 @@
     grid-row: 6;
 }
 .jobs{
-    margin-top: 250px;
-    margin-left: 200px;
+    margin-top: 79%;
+    margin-left: 60%;
     grid-column: 2;
     grid-row: 6;
 }
 .press{
-    margin-top: 300px;
-    margin-left: 200px;
+    margin-top: 95%;
+    margin-left: 60%;
     grid-column: 2;
     grid-row: 6;
 }
 .blog{
-    margin-top: 350px;
-    margin-left: 200px;
+    margin-top: 111%;
+    margin-left: 60%;
     grid-column: 2;
     grid-row: 6;
 }
 .header{
-    padding: 70px;
+    padding: 4%;
     background: white;
     grid-column: 1/6;
     grid-row: 1;
@@ -62,58 +62,53 @@
     grid-column: 1/6;
     grid-row: 3;
     background-image: url(bg-curve-desktop.svg);
-    z-index: 1;
-}
-.projeto{
-    padding: 70px;
-    background: white;
-    grid-column: 1/-1;
-    grid-row: 7;
 }
 .story{
-    padding-left: 70px;
+    padding-left: 10%;
     background: white;
     grid-column: 1/3;
     grid-row: 2;
 }
 .story2{
-    padding-right: 70px;
+    padding-right: 10%;
     height: 100%;
     background: white;
     grid-column: 3/6;
     grid-row: 2;
 }
 .getstarted1{
-    padding-left: 70px;
+    padding-left: 10%;
     background: $light-grayish-blue;
     grid-column: 1/3;
     grid-row: 4;
 }
 .getstarted2{
-    padding-right: 70px;
+    padding-right: 10%;
     background: $light-grayish-blue;
     grid-column: 3/6;
     grid-row: 4;
 }
 .footer{
-    padding: 70px;
+    padding: 10%;
     background: $very-dark-blue-1;
     grid-column: 1/-1;
     grid-row: 6;
 }
 .earlyaccess{
-    padding-left: 70px;
+    padding-left: 10%;
     background: $desaturated-blue;
     grid-column: 1/4;
     grid-row: 5;
 }
 .earlyaccess2{
-    padding-right: 70px;
+    padding-right: 10%;
     background: $desaturated-blue;
     grid-column: 3/6;
     grid-row: 5;
 }
 body{
+    padding: 1%;
+    margin: 0%;
     font-family: $font-primary;
     font-weight: 400;
 }
@@ -122,19 +117,13 @@ body{
     font-weight: 400, 700;
 }
 .btn{
-    margin:30px;
+    margin:2%;
     float: right;
     border: none;
-    border-radius: 10px;
-    background-color: inherit;
     font-size:18px;
     cursor: pointer;
     outline: none;
     transition-duration: 0.1s;
-}
-.btn:hover{
-    border-radius: 10px;
-    background: inherit;
 }
 .btn:active{
     background-color: inherit;
@@ -142,68 +131,67 @@ body{
 }
 .btn2{
     border: none;
-    background-color: inherit;
     cursor: pointer;
 }
 .illustration-1{
     max-width: 80%;
-    max-height: 100vh;
+    max-height: 100%;
     float: right;
     margin: auto;
 }
 .arrow{
     width: 10%;
-    margin-left: 7px;
+    margin-left: 3%;
 }
 .illustration-2{
     max-width: 80%;
-    max-height: 100vh;
+    max-height: 90%;
     float: right;
     margin: auto;
 }
 .avatar{
-    margin-top: 10px;
+    margin-top: 1%;
     position: absolute;
     border-radius: 50%;
     width: 3%;
 }
 .h1{
-    font-size: 16px;
-    margin-left: 15px;
+    font-size: 100%;
+    margin-left: 7%;
     color: $light-grayish-blue;
     font-family: $font-primary;
     font-weight: 100;
 }
 h2{
-    font-size: 39px;
+    font-size: 230%;
     color: $very-dark-blue-1;
-    margin-bottom: 4rem;
+    margin-bottom: 5%;
     margin-block-end: auto;
 }
 .h2{
-    margin-top: 100px;
-    margin-bottom: 30px;
-    color: white;
+    margin-top: 20%;
+    margin-bottom: 6%;
+    color: $light-grayish-blue;
 }
 h3{
-    font-size: 18px;
+    font-size: 120%;
     font-weight: 400;
 }
 .h3{
-    color: white;
+    color: $light-grayish-blue;
 }
 h1{
-    font-size: 16px;
+    font-size: 100%;
     font-family: $font-primary;
 }
 h4{
-    margin:0;
-    font-size: 16px;
+    margin:0%;
+    font-size: 100%;
     font-weight: 600;
     font-family: $font-primary;
 }
 .h4{
-    font-size: 20px;
+    font-size: 110%;
     font-weight: 50;
     font-family: $font-primary;
     color: $light-grayish-blue;
@@ -219,32 +207,32 @@ h5{
     border-color: $light-gray;
     border-radius: 3px;
     font-size: large;
-    height: 45px;
+    height: 6%;
 }
 .email2{
-    margin-left: 300px;
-    margin-top: 110px;
+    margin-left: 26%;
+    margin-top: 10%;
     border: solid 1px $light-gray;
     border-radius: 3px;
     font-size: large;
-    height: 45px;
+    height: 10%;
     box-shadow: 5px 10px 20px rgba($color: #3e3e53, $alpha: 1.0);
 }
 .logo{
-    margin-top: 30px;
+    margin-top: 2%;
 }
 .phone{
-    margin-top: 15px;
+    margin-top: 1%;
 }
 .mail{
     display: flex;
     align-items: center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 1%;
 }
 .contact{
-    margin-top: 200px;
-    margin-left: 200px;
+    margin-top: 62%;
+    margin-left: 60%;
     align-items: right;
     display: flex;
     align-items: right;
@@ -252,8 +240,8 @@ h5{
     grid-row: 6;
 }
 .terms{
-    margin-top: 250px;
-    margin-left: 200px;
+    margin-top: 79%;
+    margin-left: 60%;
     align-items: right;
     display: flex;
     align-items: right;
@@ -261,8 +249,8 @@ h5{
     grid-row: 6;
 }
 .privacy{
-    margin-top: 300px;
-    margin-left: 200px;
+    margin-top: 95%;
+    margin-left: 60%;
     align-items: right;
     display: flex;
     align-items: right;
@@ -270,8 +258,8 @@ h5{
     grid-row: 6;
 }
 .social{
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 2%;
+    margin-left: 40%;
     align-items: right;
     display: flex;
     align-items: right;
@@ -333,11 +321,11 @@ h5{
 .btn-footer{
     cursor: pointer;
     border: none;
-    border-radius: 3px;
     background: $very-dark-blue-1;
     font-family: $font-primary;
     color: $light-grayish-blue;
     outline: none;
+    width: 15%;
 }
 .letras{
     font-size: 18px;
