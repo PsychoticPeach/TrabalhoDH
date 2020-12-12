@@ -3,7 +3,7 @@
 
 .container {
     display: grid;
-    grid-template-rows: 10vw 70vh 110px 75vh 20vw 25vw ;
+    grid-template-rows: 10vw 70vh 110px 75vh 20vw 20vw ;
     grid-template-columns: repeat(3, minmax(min-content, 20rem)) 1fr;
 }
 .container1{
@@ -25,29 +25,30 @@
 .container3{
     width:60%;
 }
+.container4{
+    grid-column: 3;
+    grid-row: 2;
+}
 .about{
-    margin-top: 62%;
+    margin-top: 0%;
     margin-left: 60%;
-    align-items: right;
-    display: flex;
-    align-items: right;
     grid-column: 2;
     grid-row: 6;
 }
 .jobs{
-    margin-top: 79%;
+    margin-top: 0%;
     margin-left: 60%;
     grid-column: 2;
     grid-row: 6;
 }
 .press{
-    margin-top: 95%;
+    margin-top: 50%;
     margin-left: 60%;
     grid-column: 2;
     grid-row: 6;
 }
 .blog{
-    margin-top: 111%;
+    margin-top: 80%;
     margin-left: 60%;
     grid-column: 2;
     grid-row: 6;
@@ -89,7 +90,6 @@
     grid-row: 4;
 }
 .footer{
-    padding: 10%;
     background: $very-dark-blue-1;
     grid-column: 1/-1;
     grid-row: 6;
@@ -197,8 +197,8 @@ h4{
     color: $light-grayish-blue;
 }
 h5{
-    margin-top:3px;
-    font-size: 12px;
+    margin-top:2%;
+    font-size: 100%;
     font-weight: 200px;
     font-family: $font-primary;
 }
@@ -216,13 +216,13 @@ h5{
     border-radius: 3px;
     font-size: large;
     height: 10%;
+    width: 50%;
     box-shadow: 5px 10px 20px rgba($color: #3e3e53, $alpha: 1.0);
 }
-.logo{
-    margin-top: 2%;
-}
 .phone{
-    margin-top: 1%;
+    height: 5%;
+    margin-top: 2%;
+    margin-left: 1%;
 }
 .mail{
     display: flex;
@@ -231,7 +231,7 @@ h5{
     margin-top: 1%;
 }
 .contact{
-    margin-top: 62%;
+    margin-top: 50%;
     margin-left: 60%;
     align-items: right;
     display: flex;
@@ -240,7 +240,7 @@ h5{
     grid-row: 6;
 }
 .terms{
-    margin-top: 79%;
+    margin-top: 30%;
     margin-left: 60%;
     align-items: right;
     display: flex;
@@ -249,20 +249,14 @@ h5{
     grid-row: 6;
 }
 .privacy{
-    margin-top: 95%;
+    margin-top: 10%;
     margin-left: 60%;
-    align-items: right;
-    display: flex;
-    align-items: right;
     grid-column: 3;
     grid-row: 6;
 }
 .social{
-    margin-top: 2%;
+    margin-top: 0%;
     margin-left: 40%;
-    align-items: right;
-    display: flex;
-    align-items: right;
     grid-column: 4;
     grid-row: 6;
 }
@@ -272,14 +266,12 @@ h5{
     background: $bright-blue;
     font-family: $font-primary;
     color: $light-grayish-blue;
-    font-size: 14px;
-    height: 45px;
-    width: 200px;
-    margin: 15px;
+    font-size: 100%;
+    height: 7%;
+    width: 30%;
+    margin: 4%;
     font-weight: 600;
     outline: none;
-}
-.btn3:hover{
     cursor: pointer;
 }
 .btn6{
@@ -289,17 +281,17 @@ h5{
     background: $bright-blue;
     font-family: $font-primary;
     color: $light-grayish-blue;
-    font-size: 14px;
-    height: 45px;
-    width: 200px;
-    margin-top: 10px;
-    margin-left: 300px;
+    font-size: 95%;
+    height: 12%;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 26%;
     font-weight: 600;
     outline: none;
     box-shadow: 5px 10px 20px rgba($color: #3e3e53, $alpha: 1.0);
 }
 .btn4{
-    margin: 0;
+    margin: 0%;
     position: relative;
     left: 570%;
     border: none;
@@ -308,27 +300,40 @@ h5{
     outline: none;
 }
 .btn5{
-    margin:0;
+    margin:0%;
     position: absolute;
     border: none;
     border-bottom: 1px solid $moderate-cyan;
     background: inherit;
-    height: 25px;
-    width: 200px;
+    height: 3%;
+    width: 11%;
     cursor:pointer;
     outline: none;
 }
 .btn-footer{
+    width: 20%;
+    height: 100%;
     cursor: pointer;
     border: none;
     background: $very-dark-blue-1;
     font-family: $font-primary;
     color: $light-grayish-blue;
     outline: none;
-    width: 15%;
+}
+.btn-footer1{
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background: $very-dark-blue-1;
+    font-family: $font-primary;
+    outline: none;
 }
 .letras{
-    font-size: 18px;
+    font-size: 108%;
     color: $moderate-cyan;
     display: inline-block;
+}
+.logo{
+    margin-top: 2%;
+    margin-left: 5%;
 }
