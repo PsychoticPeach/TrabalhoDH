@@ -1,6 +1,14 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
+@media only screen and (max-width:800px) {
+    body{
+        width: 80%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width:500px) {
+    body{
+        width:100%;
+    }
+}
 .container {
     display: grid;
     grid-template-rows: 10vw 70vh 110px 75vh 20vw 20vw ;
@@ -341,4 +349,10 @@ h5{
 .logo{
     margin-top: 2%;
     margin-left: 5%;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
 }
