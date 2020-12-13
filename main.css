@@ -6,7 +6,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  body {
+  .container5, .container6, .container4 {
     width: 100%;
   }
 }
@@ -14,15 +14,14 @@
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 10vw 70vh 110px 75vh 20vw 20vw;
-      grid-template-rows: 10vw 70vh 110px 75vh 20vw 20vw;
-  -ms-grid-columns: (minmax(min-content, 20rem))[3] 1fr;
-      grid-template-columns: repeat(3, minmax(-webkit-min-content, 20rem)) 1fr;
-      grid-template-columns: repeat(3, minmax(min-content, 20rem)) 1fr;
+  -ms-grid-rows: 7% 30% 5% 40% 20% 20%;
+      grid-template-rows: 7% 30% 5% 40% 20% 20%;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+  float: left;
 }
 
 .container1 {
-  background-color: white;
   width: 60%;
   border: 5px;
   padding: 7%;
@@ -33,7 +32,7 @@
 }
 
 .container2 {
-  background-color: white;
+  background-color: #f6f6fe;
   width: 70%;
   border: 5px;
   margin-top: 10%;
@@ -45,6 +44,8 @@
 }
 
 .container4 {
+  float: left;
+  overflow: auto;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 6;
@@ -52,6 +53,9 @@
 }
 
 .container5 {
+  width: 100%;
+  float: left;
+  overflow: auto;
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 6;
@@ -59,6 +63,9 @@
 }
 
 .container6 {
+  margin-top: 30%;
+  width: 100%;
+  float: left;
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 6;
@@ -72,6 +79,12 @@
   grid-column: 2;
   -ms-grid-row: 6;
   grid-row: 6;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .jobs {
@@ -81,6 +94,12 @@
   grid-column: 2;
   -ms-grid-row: 6;
   grid-row: 6;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .press {
@@ -90,6 +109,12 @@
   grid-column: 2;
   -ms-grid-row: 6;
   grid-row: 6;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .blog {
@@ -99,6 +124,12 @@
   grid-column: 2;
   -ms-grid-row: 6;
   grid-row: 6;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header {
@@ -134,6 +165,11 @@
 }
 
 .story2 {
+  float: left;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-right: 10%;
   height: 100%;
   background: white;
@@ -192,7 +228,7 @@
 }
 
 body {
-  padding: 1%;
+  padding: 0%;
   margin: 0%;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -210,9 +246,8 @@ body {
 }
 
 .btn:active {
-  background-color: inherit;
-  -webkit-transform: translateY(2px);
-          transform: translateY(2px);
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 
 .btn2 {
@@ -221,10 +256,9 @@ body {
 }
 
 .illustration-1 {
-  max-width: 80%;
+  max-width: 100%;
   max-height: 100%;
-  float: right;
-  margin: auto;
+  float: left;
 }
 
 .arrow {
@@ -233,10 +267,10 @@ body {
 }
 
 .illustration-2 {
-  max-width: 80%;
-  max-height: 90%;
-  float: right;
-  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+  margin-top: 10%;
 }
 
 .avatar {
@@ -324,20 +358,27 @@ h5 {
 }
 
 .phone {
+  width: 100%;
+  float: left;
+  overflow-wrap: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 5%;
   margin-top: 2%;
   margin-left: 1%;
 }
 
 .mail {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
-  margin-top: 1%;
+  margin-left: 0.2%;
+  margin-top: 12%;
 }
 
 .contact {
@@ -349,7 +390,6 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: right;
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 6;
@@ -365,7 +405,6 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: right;
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 6;
@@ -462,12 +501,26 @@ h5 {
 }
 
 .letras {
-  font-size: 108%;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 113%;
   color: #3c9f8f;
   display: inline-block;
 }
 
 .logo {
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  overflow: auto;
   margin-top: 2%;
   margin-left: 5%;
 }
