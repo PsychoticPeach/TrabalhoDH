@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @media only screen and (max-width: 800px) {
-  body {
-    width: 80%;
-    padding: 0;
+  .container {
+    background: yellow;
+    display: block;
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .container5, .container6, .container4 {
-    width: 100%;
+@media only screen and (max-width: 600px) {
+  .container {
+    background: red;
+    display: block;
   }
 }
 
@@ -19,7 +20,6 @@
       grid-template-rows: 7% 30% 5% 40% 20% 20%;
   -ms-grid-columns: (25%)[4];
       grid-template-columns: repeat(4, 25%);
-  float: left;
 }
 
 .container1 {

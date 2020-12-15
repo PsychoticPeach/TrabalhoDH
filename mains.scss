@@ -1,17 +1,6 @@
-// @media only screen and (max-width:800px) { //tablets
-//     .container{
-//         background: yellow;
-//         display: block;
-//     }
-// }
-// @media only screen and (max-width:600px) { //telemnoveis
-//     .container{
-//         background: red;
-//         display: block;
-//     }
-// }
 .container {
-    display: block;
+    background: red;
+    display: grid;
     grid-template-rows: 7% 30% 5% 40% 20% 20% ;
     grid-template-columns: repeat(4, 25%);
 }
