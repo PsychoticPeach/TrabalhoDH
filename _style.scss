@@ -1,15 +1,3 @@
-// @media only screen and (max-width:800px) { //tablets
-//     body{
-//         background: pink;
-//     }
-// }
-// @media only screen and (max-width:600px) { //telemnoveis
-//     body{
-//         clear:both;
-//         background: red;
-//         display: block;
-//     }
-// }
 .container{
     display: grid;
     grid-template-rows: 7% 30% 5% 40% 20% 20% ;
@@ -103,29 +91,28 @@
 .story{
     padding-left: 10%;
     background: white;
-    grid-column: 1/3;
+    grid-column: 3/6;
     grid-row: 2;
 }
 .story2{
-    float: left;
-    overflow: auto;
-    display: flex;
+    padding-left: 8%;
+    float: auto;
     padding-right: 10%;
     height: 100%;
     background: white;
-    grid-column: 3/6;
+    grid-column: 1/3;
     grid-row: 2;
 }
 .getstarted1{
     padding-left: 10%;
     background: $light-grayish-blue;
-    grid-column: 1/3;
+    grid-column: 3/6;
     grid-row: 4;
 }
 .getstarted2{
-    padding-right: 10%;
+    padding: 7%;
     background: $light-grayish-blue;
-    grid-column: 3/6;
+    grid-column: 1/3;
     grid-row: 4;
 }
 .footer{
