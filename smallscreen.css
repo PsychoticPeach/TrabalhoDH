@@ -9,9 +9,8 @@
 }
 .container1{
     background: white;
-    width: 70%;
+    width: 80%;
     border: 5px;
-    padding: 7%;
     margin-top: 5%;
     margin-left: 7%;
     border-radius: 10px;
@@ -25,60 +24,43 @@
     margin-left: 18%;
 }
 .container3{
-    width:50%;
+    text-align: center;
+    width:90%;
 }
 .container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 20%;
+    margin: 7%;
     float: left;
-    overflow: auto;
     grid-column: 2;
     grid-row: 6;
 }
 .container5{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 20%;
+    margin: 7%;
     float: left;
-    overflow: auto;
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 6;
 }
 .container6{
-    margin-top: 30%;
-    width: 100%;
+    margin-left: 35%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: top;
+    height: 5%;
     float: left;
-    grid-column: 4;
-    grid-row: 6;
-}
-.about{
-    margin-top: 40%;
-    margin-left: 60%;
     grid-column: 2;
     grid-row: 6;
-    align-items: right;
-    display: flex;
 }
-.jobs{
-    margin-top: 6%;
-    margin-left: 60%;
-    grid-column: 2;
-    grid-row: 6;
-    align-items: right;
-    display: flex;
-}
-.press{
-    margin-top: 6%;
-    margin-left: 60%;
-    grid-column: 2;
-    grid-row: 6;
-    align-items: right;
-    display: flex;
-}
-.blog{
-    margin-top: 6%;
-    margin-left: 60%;
-    grid-column: 2;
-    grid-row: 6;
-    align-items: right;
-    display: flex;
-}
+
 .header{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -123,21 +105,23 @@
     grid-row: 4;
 }
 .getstarted2{
+    height: 200%;
     padding-right: 10%;
     background: hsl(240, 75%, 98%);
-
     grid-column: 3/6;
     grid-row: 4;
 }
 .footer{
+    height: 1000px;
     background: hsl(243,85%,12%);
     grid-column: 1/-1;
     grid-row: 6;
 }
 .earlyaccess{
+    display: flex;
     padding-left: 10%;
     background: hsl(238, 22%, 44%);
-    grid-column: 1/4;
+    grid-column: 1/3;
     grid-row: 5;
 }
 .earlyaccess2{
@@ -145,6 +129,7 @@
     background: hsl(238, 22%, 44%);
     grid-column: 3/6;
     grid-row: 5;
+    height: 300px;
 }
 body{
     padding: 0%;
@@ -198,11 +183,9 @@ body{
     font-weight: 100;
 }
 h2{
-    margin-top: 0;
     font-size: 270%;
     font-weight: 700%;
     color: hsl(243,85%,12%);
-    margin-bottom: 5%;
 }
 .stay{
     font-family: "Open Sans", sans-serif;
@@ -211,23 +194,31 @@ h2{
     color: hsl(243,85%,12%);
     text-align: center;
 }
-.h2{
-    margin-top: 20%;
-    margin-bottom: 6%;
+h6{
+    text-align: center;
+    font-weight: 700%;
+    width: auto;
+    font-size: 170%;
+    margin: 20%;
+    margin-bottom: 8%;
     color: hsl(240, 75%, 98%);
 }
 h3{
-    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
     font-size: 170%;
     font-weight: 400;
 }
-.h3{
+h7{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 140%;
     color: hsl(240, 75%, 98%);
 }
 h1{
     font-size: 100%;
     font-family: "Open Sans", sans-serif;
-    font-weight:1000;
+    font-weight:700;
 }
 h4{
     margin:0%;
@@ -256,30 +247,27 @@ h5{
     font-size: large;
 }
 .email2{
-    margin-left: 26%;
+    margin-left: 20%;
     margin-top: 10%;
-    border: solid 1px hsl(0, 0%, 75%);
+    height: 20%;
+    width: 70%;
+    border: solid 1px;
+    border-color: hsl(0, 0%, 75%);
     border-radius: 3px;
     font-size: large;
-    height: 10%;
-    width: 50%;
     box-shadow: 5px 10px 20px (hsl(0, 0%, 75%));
 }
 .phone{
-    width: 100%;
+    width: 200%;
     float: left;
-    overflow-wrap: auto;
-    display: flex;
-    height: 5%;
     margin-top: 2%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .mail{
-    width: 100%;
+    width: 200%;
     display: flex;
-    align-items: center;
-    margin-left: 0.4%;
-    margin-top: 10%;
+    
+    margin-top: 20%;
 }
 .contact{
     margin-top: 40%;
@@ -333,10 +321,10 @@ h5{
     font-family: "Open Sans", sans-serif;
     color: hsl(240, 75%, 98%);
     font-size: 95%;
-    height: 12%;
-    width: 20%;
-    margin-top: 1%;
-    margin-left: 26%;
+    height: 20%;
+    width: 71%;
+    margin-top: 5%;
+    margin-left: 20%;
     font-weight: 600;
     outline: none;
     box-shadow: 5px 10px 20px hsl(240, 36%, 17%);
@@ -363,8 +351,8 @@ h5{
     outline: none;
 }
 .btn-footer{
-    width: 20%;
-    height: 100%;
+    height: 5%;
+    padding:1px;
     cursor: pointer;
     border: none;
     background: hsl(243,85%,12%);
@@ -386,12 +374,12 @@ h5{
     color:  hsl(170, 45%, 43%);
 }
 .logo{
+    height: 150px;
     align-items: right;
     display: flex;
     float: left;
-    overflow: auto;
-    margin-top: 4%;
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-left: 7%;
 }
 
 .attribution{
