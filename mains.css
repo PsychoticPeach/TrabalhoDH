@@ -9,7 +9,7 @@
 }
 
 .container1 {
-  width: 60%;
+  width: 50%;
   border: 5px;
   padding: 7%;
   margin-top: 5%;
@@ -208,9 +208,8 @@
 }
 
 .getstarted2 {
-  width: 190%;
+  width: 100%;
   padding: 7%;
-  margin-left: 8%;
   background: #f6f6fe;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -238,7 +237,7 @@
 }
 
 .earlyaccess2 {
-  margin-top: 5%;
+  margin-top: 0%;
   padding-right: 10%;
   background: #585989;
   -ms-grid-column: 3;
@@ -293,6 +292,7 @@ body {
 }
 
 .illustration-2 {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -393,7 +393,7 @@ h6 {
 
 .email2 {
   margin-left: 26%;
-  margin-top: 10%;
+  margin-top: 15%;
   border: solid 1px #bfbfbf;
   border-radius: 3px;
   font-size: large;
@@ -405,19 +405,19 @@ h6 {
 
 .phone {
   position: absolute;
-  width: 100%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 5%;
   margin-top: 180px;
-  margin-left: 1%;
+  margin-left: 3%;
 }
 
 .mail {
   position: absolute;
-  width: 100%;
-  margin-left: 0.4%;
+  width: 90%;
+  margin-left: 1%;
   margin-top: 16%;
   -ms-grid-column: 2;
   grid-column: 2;
@@ -542,6 +542,17 @@ h6 {
   outline: none;
 }
 
+.btn-footer2 {
+  height: 0;
+  padding: 1px;
+  cursor: pointer;
+  border: none;
+  background: #070539;
+  font-family: "Open Sans", sans-serif;
+  color: #f6f6fe;
+  outline: none;
+}
+
 .letras {
   -webkit-box-align: right;
       -ms-flex-align: right;
@@ -575,9 +586,5 @@ h6 {
 
 .attribution a {
   color: #3e52a3;
-}
-
-.stay {
-  width: 100%;
 }
 /*# sourceMappingURL=mains.css.map */
