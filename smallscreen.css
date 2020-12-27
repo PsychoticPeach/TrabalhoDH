@@ -28,6 +28,7 @@
     width:90%;
 }
 .container4{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,6 +40,7 @@
     grid-row: 6;
 }
 .container5{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -50,6 +52,7 @@
     grid-row: 6;
 }
 .container6{
+    position: relative;
     margin-left: 35%;
     width: 40%;
     display: flex;
@@ -105,7 +108,8 @@
     grid-row: 4;
 }
 .getstarted2{
-    height: 200%;
+    height: 100%;
+    width: 70%;
     padding-right: 10%;
     background: hsl(240, 75%, 98%);
     grid-column: 3/6;
@@ -125,6 +129,7 @@
     grid-row: 5;
 }
 .earlyaccess2{
+    margin-top: 0;
     padding-right: 10%;
     background: hsl(238, 22%, 44%);
     grid-column: 3/6;
@@ -258,15 +263,16 @@ h5{
     box-shadow: 5px 10px 20px (hsl(0, 0%, 75%));
 }
 .phone{
-    width: 200%;
+    position: relative;
+    width: 90%;
     float: left;
     margin-top: 2%;
     margin-left: 2%;
 }
 .mail{
-    width: 200%;
+    width: 90%;
     display: flex;
-    
+    position: relative;
     margin-top: 20%;
 }
 .contact{
@@ -346,12 +352,12 @@ h5{
     border-bottom: 2px solid hsl(170, 45%, 43%);
     background: inherit;
     height: 4%;
-    width: 56%;
+    width: 66%;
     cursor:pointer;
     outline: none;
 }
 .btn-footer{
-    height: 5%;
+    height: 0;
     padding:1px;
     cursor: pointer;
     border: none;
@@ -387,4 +393,7 @@ h5{
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+.span{
+    width: 300px;
 }

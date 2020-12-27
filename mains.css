@@ -567,12 +567,13 @@ h6 {
   margin-left: 5%;
 }
 
-footer .attribution {
+.attribution {
+  width: 70%;
   font-size: 70%;
   text-align: center;
 }
 
-footer .attribution a {
+.attribution a {
   color: #3e52a3;
 }
 
