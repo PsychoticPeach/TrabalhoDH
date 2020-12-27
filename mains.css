@@ -9,7 +9,7 @@
 }
 
 .container1 {
-  width: 40%;
+  width: 60%;
   border: 5px;
   padding: 7%;
   margin-top: 5%;
@@ -31,26 +31,54 @@
 }
 
 .container4 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 35%;
+  margin-top: 13%;
+  width: 15%;
+  height: 17%;
   float: left;
-  overflow: auto;
-  -ms-grid-column: 2;
-  grid-column: 2;
-  -ms-grid-row: 6;
-  grid-row: 6;
-}
-
-.container5 {
-  width: 100%;
-  float: left;
-  overflow: auto;
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 6;
   grid-row: 6;
 }
 
+.container5 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 55%;
+  margin-top: 12.5%;
+  width: 15%;
+  height: 17%;
+  float: left;
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 6;
+  grid-row: 6;
+}
+
 .container6 {
-  width: 100%;
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 14%;
+  width: 20%;
   float: left;
   -ms-grid-column: 4;
   grid-column: 4;
@@ -152,6 +180,7 @@
 }
 
 .story2 {
+  margin-top: 15%;
   padding-left: 8%;
   float: auto;
   padding-right: 10%;
@@ -174,8 +203,14 @@
   grid-row: 4;
 }
 
+.cor {
+  background-color: #f6f6fe;
+}
+
 .getstarted2 {
+  width: 190%;
   padding: 7%;
+  margin-left: 8%;
   background: #f6f6fe;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -185,6 +220,7 @@
 }
 
 .footer {
+  height: 400px;
   background: #070539;
   grid-column: 1/-1;
   -ms-grid-row: 6;
@@ -202,6 +238,7 @@
 }
 
 .earlyaccess2 {
+  margin-top: 5%;
   padding-right: 10%;
   background: #585989;
   -ms-grid-column: 3;
@@ -240,9 +277,14 @@ body {
 }
 
 .illustration-1 {
-  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 95%;
   max-height: 100%;
-  float: left;
 }
 
 .arrow {
@@ -251,17 +293,20 @@ body {
 }
 
 .illustration-2 {
-  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90%;
   max-height: 100%;
   float: left;
   margin-top: 10%;
 }
 
 .avatar {
-  margin-top: 1%;
+  margin-top: 2%;
   position: absolute;
   border-radius: 50%;
-  width: 3%;
+  width: 4%;
 }
 
 .h1 {
@@ -302,8 +347,8 @@ h1 {
 
 h4 {
   margin: 0%;
-  font-size: 100%;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 90%;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -316,9 +361,25 @@ h4 {
 
 h5 {
   margin-top: 2%;
-  font-size: 100%;
-  font-weight: 200px;
+  font-size: 80%;
+  font-weight: 400;
   font-family: "Open Sans", sans-serif;
+}
+
+h6 {
+  margin-top: 20%;
+  margin-bottom: 7%;
+  font-size: 200%;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #f6f6fe;
+}
+
+.h6 {
+  font-size: 120%;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  color: #f6f6fe;
 }
 
 .email {
@@ -326,7 +387,8 @@ h5 {
   border-color: #bfbfbf;
   border-radius: 3px;
   font-size: large;
-  height: 6%;
+  height: 40px;
+  width: 330px;
 }
 
 .email2 {
@@ -336,33 +398,29 @@ h5 {
   border-radius: 3px;
   font-size: large;
   height: 10%;
-  width: 50%;
+  width: 65%;
   -webkit-box-shadow: 5px 10px 20px #3e3e53;
           box-shadow: 5px 10px 20px #3e3e53;
 }
 
 .phone {
+  position: absolute;
   width: 100%;
-  float: left;
-  overflow-wrap: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 5%;
-  margin-top: 2%;
+  margin-top: 180px;
   margin-left: 1%;
 }
 
 .mail {
+  position: absolute;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-left: 0.4%;
-  margin-top: 10%;
+  margin-top: 16%;
+  -ms-grid-column: 2;
+  grid-column: 2;
 }
 
 .contact {
@@ -415,8 +473,8 @@ h5 {
   background: #3065f8;
   font-family: "Open Sans", sans-serif;
   color: #f6f6fe;
-  font-size: 100%;
-  height: 7%;
+  font-size: 80%;
+  height: 45px;
   width: 30%;
   margin: 4%;
   font-weight: 600;
@@ -433,8 +491,8 @@ h5 {
   color: #f6f6fe;
   font-size: 95%;
   height: 12%;
-  width: 20%;
-  margin-top: 1%;
+  width: 30%;
+  margin-top: 3%;
   margin-left: 26%;
   font-weight: 600;
   outline: none;
@@ -456,10 +514,10 @@ h5 {
   margin: 0%;
   position: relative;
   border: none;
-  border-bottom: 1px solid #3c9f8f;
+  border-bottom: 2px solid #3c9f8f;
   background: inherit;
   height: 3%;
-  width: 110%;
+  width: 30%;
   cursor: pointer;
   outline: none;
 }
@@ -516,5 +574,9 @@ footer .attribution {
 
 footer .attribution a {
   color: #3e52a3;
+}
+
+.stay {
+  width: 100%;
 }
 /*# sourceMappingURL=mains.css.map */
