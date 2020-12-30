@@ -1,0 +1,101 @@
+$font-primary: "Cursive", sans-serif;
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    margin: 9%;
+    background: rgb(243, 237, 237);
+    height: 15%;
+    width: 75%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+}
+.ip{
+    margin-top: 2%;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+.location{
+    
+    margin-top: 2%;
+    margin-bottom: 0;
+    flex-grow: 1;
+    
+}
+.timezone{
+    margin-top: 2%;
+    flex-grow: 1;
+    
+}
+.isp{
+    margin-top: 2%;
+    flex-grow: 1;
+    
+}
+.imagem{
+    position: absolute;
+}
+iframe{
+    padding-top: 12%;
+    position: absolute;
+    width:1900px;
+    height: 600px;
+    z-index: -1;
+}
+h1{ 
+    text-align: left;
+    margin-left: 30px;
+    font-size: 70%;
+    font-family: $font-primary;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.473);
+}
+h2{
+    margin: 0;
+    font-size: 150%;
+    font-family: $font-primary;
+}
+
+.IP{
+    border: none;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    height: 50px;
+    width: 30%;
+    z-index: 1;
+}
+.btn{
+    position: absolute;
+    cursor: pointer;
+    outline: none;
+    height: 15.7%;
+    width: 4%;
+    border-radius: 15px;
+    border: none;
+    background: black;
+    color: white;
+    z-index: 0;
+    margin-left: 32%;
+}
+.div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    width: 100%;
+}
+.este{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    h3{
+        font-family: $font-primary;
+        font-size: 200%;
+        color: white;
+    }
+}
