@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+  height: 700px;
+  width: 100%;
+}
+
+.imagem {
+  width: 100%;
+  z-index: -5;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  color: white;
+}
+
+.IP {
+  top: 10%;
+  position: absolute;
+}
+
+.intIP {
+  position: absolute;
+  border: none;
+  outline: none;
+  border-radius: 20px 0 0 20px;
+  height: 20%;
+  width: 40%;
+}
+
+.btn {
+  position: absolute;
+  outline: none;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  right: 27%;
+  width: 3%;
+  height: 20%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.btn:active {
+  background: #303030;
+}
+
+h3 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.container2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  height: 15%;
+  background-color: #cacaca;
+  border-radius: 20px;
+  left: 12%;
+  top: 25%;
+  font-family: 'Palanquin Dark', sans-serif;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+  z-index: 1;
+}
+
+.ip {
+  margin: 2%;
+}
+
+.ip h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: rgba(0, 0, 0, 0.384);
+  font-size: 95%;
+}
+
+.ip .linha {
+  width: 160%;
+  height: 60%;
+  border-right: 2px solid rgba(0, 0, 0, 0.384);
+}
+
+.location {
+  margin: 2%;
+}
+
+.location h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: rgba(0, 0, 0, 0.384);
+  font-size: 95%;
+}
+
+.location .linha {
+  width: 160%;
+  height: 60%;
+  border-right: 2px solid rgba(0, 0, 0, 0.384);
+}
+
+.timezone {
+  margin: 2%;
+}
+
+.timezone h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: rgba(0, 0, 0, 0.384);
+  font-size: 95%;
+}
+
+.timezone .linha {
+  width: 160%;
+  height: 60%;
+  border-right: 2px solid rgba(0, 0, 0, 0.384);
+}
+
+.isp {
+  margin: 2%;
+}
+
+.isp h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: rgba(0, 0, 0, 0.384);
+  font-size: 95%;
+}
+/*# sourceMappingURL=main.css.map */

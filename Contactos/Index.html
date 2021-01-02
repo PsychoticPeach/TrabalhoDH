@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <img class="imagem" src="pattern-bg.png" />
+
+        <div class="IP">
+            <h3>IP Adress Tracker</h3>
+        </div>
+
+        <input class="intIP" type="email" id="email" name="email" placeholder="   Search for any IP adress or domain">
+        <button class="btn" type="button"><img src="icon-arrow.svg"/></button>
+    </div>
+    <div class="container2">
+        <div class="ip">
+            <h1>IP ADDRESS</h1>
+            <div class="linha">
+                <h2>192.212.174.101</h2>
+            </div>
+        </div>
+        <div class="location">
+            <h1>LOCATION</h1>
+            <div class="linha">
+                <h2>Brooklyn, NY 10001</h2>
+            </div>
+        </div>
+        <div class="timezone">
+            <h1>TIMEZONE</h1>
+            <div class="linha">
+                <h2>UTC -05:00</h2>
+            </div>
+        </div>
+        <div class="isp">
+            <h1>ISP</h1>
+            <h2>SpaceX</h2>
+            <h2>Starlink</h2>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        function myMap() {
+            const myLatLng = {
+                lat: -23.884582,
+                lng: 212.334890
+            };
+            var mapProp = {
+                center: new google.maps.LatLng(-23.884582, 212.334890),
+                zoom: 16,
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapProp);
+            new google.maps.Marker({
+                position: myLatLng,
+                map,
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArkJ5vtihQ4QALldr1UycPmr8oAi7P_d4&callback=myMap"></script>
+
+</body>
+
+</html>

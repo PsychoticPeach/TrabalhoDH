@@ -1,5 +1,8 @@
 $font-primary: "Cursive", sans-serif;
-
+*{
+    padding: 0;
+    margin: 0;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -38,12 +41,9 @@ $font-primary: "Cursive", sans-serif;
 .imagem{
     position: absolute;
 }
-iframe{
-    padding-top: 12%;
-    position: absolute;
-    width:1900px;
-    height: 600px;
-    z-index: -1;
+#map{
+    height: 500px;
+    width: 500px;
 }
 h1{ 
     text-align: left;
