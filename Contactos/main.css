@@ -101,12 +101,6 @@ h3 {
   font-size: 95%;
 }
 
-.ip .linha {
-  width: 160%;
-  height: 60%;
-  border-right: 2px solid rgba(0, 0, 0, 0.384);
-}
-
 .location {
   margin: 2%;
 }
@@ -115,12 +109,6 @@ h3 {
   font-family: 'Palanquin Dark', sans-serif;
   color: rgba(0, 0, 0, 0.384);
   font-size: 95%;
-}
-
-.location .linha {
-  width: 160%;
-  height: 60%;
-  border-right: 2px solid rgba(0, 0, 0, 0.384);
 }
 
 .timezone {
@@ -133,12 +121,6 @@ h3 {
   font-size: 95%;
 }
 
-.timezone .linha {
-  width: 160%;
-  height: 60%;
-  border-right: 2px solid rgba(0, 0, 0, 0.384);
-}
-
 .isp {
   margin: 2%;
 }
@@ -147,5 +129,11 @@ h3 {
   font-family: 'Palanquin Dark', sans-serif;
   color: rgba(0, 0, 0, 0.384);
   font-size: 95%;
+}
+
+.linha {
+  width: 160%;
+  height: 60%;
+  border-right: 2px solid rgba(0, 0, 0, 0.384);
 }
 /*# sourceMappingURL=main.css.map */

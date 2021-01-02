@@ -83,11 +83,6 @@ h3 {
         color: rgba(0, 0, 0, 0.384);
         font-size: 95%;
     }
-    .linha {
-        width: 160%;
-        height: 60%;
-        border-right: 2px solid rgba(0, 0, 0, 0.384);
-    }
 }
 
 .location {
@@ -96,11 +91,6 @@ h3 {
         font-family: 'Palanquin Dark', sans-serif;
         color: rgba(0, 0, 0, 0.384);
         font-size: 95%;
-    }
-    .linha {
-        width: 160%;
-        height: 60%;
-        border-right: 2px solid rgba(0, 0, 0, 0.384);
     }
 }
 
@@ -111,11 +101,6 @@ h3 {
         color: rgba(0, 0, 0, 0.384);
         font-size: 95%;
     }
-    .linha {
-        width: 160%;
-        height: 60%;
-        border-right: 2px solid rgba(0, 0, 0, 0.384);
-    }
 }
 
 .isp {
@@ -125,4 +110,10 @@ h3 {
         color: rgba(0, 0, 0, 0.384);
         font-size: 95%;
     }
+}
+
+.linha {
+    width: 160%;
+    height: 60%;
+    border-right: 2px solid rgba(0, 0, 0, 0.384);
 }
