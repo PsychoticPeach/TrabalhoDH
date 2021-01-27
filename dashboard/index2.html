@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
     <title>DashBoard2</title>
 
@@ -14,175 +15,197 @@
 
 </head>
 
-<body>
+<body style="background-color:hsl(230, 17%, 14%) ;">
     <div class="container-fluid" style="margin-left: 100px; margin-right: 100px;">
         <div class="row" style="background-color:hsl(230, 17%, 14%); color: white">
             <div class="col-md-9">
-                <h1>Social Media Dashboard</h1>
-                <h3>Total Followers: 23,004</h3>
+                <h1 style="font-weight: 700;">Social Media Dashboard</h1>
+                <h3 style="font-size: 150%; margin-bottom:5%; color:hsl(228, 34%, 66%);">Total Followers: 23,004</h3>
             </div>
             <div class="col-md-3">
-                <h2>Dark Mode<span class="pull-right">Botão</span></h2>
+                <span class="pull-right">
+                    <div class="onoffswitch">
+                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
+                    <label onclick="myFunction()" class="onoffswitch-label" for="myonoffswitch">
+                        <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+                </label>
             </div>
-        </div>
+            </span>
+            <h2 style="font-size: 150%; margin-left: 6em; margin-top:1.2em; font-weight: 400;">Dark Mode</h2>
 
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body text-center" style="height: 200px;">
-                        <br>
-                        <h5 class="card-title">@nathanf</h5>
-                        <div class="card-text">
-                            <h1>1987</h1>
-                            <h4>Followers</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body text-center" style="height: 200px;">
-                        <br>
-                        <h5 class="card-title ">@nathanf</h5>
-                        <div class="card-text ">
-                            <h1>1044</h1>
-                            <h4>Followers</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 ">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body text-center" style="height: 200px;">
-                        <br>
-                        <h5 class="card-title ">@realnathanf</h5>
-                        <div class="card-text">
-                            <h1>11k</h1>
-                            <h4>Followers</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 ">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body text-center" style="height: 200px;">
-                        <br>
-                        <h5 class="card-title">Nathan F.</h5>
-                        <div class="card-text">
-                            <h1>8239</h1>
-                            <h4>Subscribers</h4>
-                        </div>
+            </label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body text-center facebook" style="height: 200px;">
+                    <br>
+                    <i class="fa fa-facebook-official fa-2x"></i>
+                    <h5 class="card-title"> @nathanf</h5>
+                    <div class="card-text">
+                        <h1>1987</h1>
+                        <h4>Followers</h4>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="class-col-md-12">
-                <h1>Overview - Today</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body " style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Page views</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>87</h1>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body " style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Likes</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>52</h1>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body " style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Likes</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>5462</h1>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body " style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Profile Views</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>52k</h1>
-
-                        </div>
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body text-center twitter" style="height: 200px;">
+                    <br>
+                    <i class="fa fa-twitter fa-2x"></i>
+                    <h5 class="card-title "> @nathanf</h5>
+                    <div class="card-text ">
+                        <h1>1044</h1>
+                        <h4>Followers</h4>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 50px">
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body " style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Retweets</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>117</h1>
-
-                        </div>
+        <div class="col-md-3 ">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body text-center instagram" style="height: 200px;">
+                    <br>
+                    <i class="fa fa-instagram fa-2x"></i>
+                    <h5 class="card-title "> @realnathanf</h5>
+                    <div class="card-text">
+                        <h1>11k</h1>
+                        <h4>Followers</h4>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body " style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Likes</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>507</h1>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body " style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Likes</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>107</h1>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 250px">
-                    <div class="card-body" style="height: 150px;">
-                        <br>
-                        <h5 class="card-title" style="margin-left: 30px">Total Views</h5>
-                        <div class="card-text" style="margin-left: 30px">
-                            <h1>1407</h1>
-                        </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body text-center youtube" style="height: 200px;">
+                    <br>
+                    <i class="fa fa-youtube-play fa-2x"></i>
+                    <h5 class="card-title"> Nathan F.</h5>
+                    <div class="card-text">
+                        <h1>8239</h1>
+                        <h4>Subscribers</h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="class-col-md-12" style="color: white;">
+            <h1 style="font-weight:700; margin-left:20px;">Overview - Today</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body " style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Page views<i class="fa fa-facebook-official fa-2x" id="facebook1"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>87</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body " style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Likes<i class="fa fa-facebook-official fa-2x" id="facebook"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>52</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body " style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Likes<i class="fa fa-instagram fa-2x" id="instagram"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>5462</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body " style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Profile Views<i class="fa fa-instagram fa-2x" id="instagram2"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>52k</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 50px">
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body " style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Retweets<i class="fa fa-twitter fa-2x" id="twitter"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>117</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body " style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Likes<i class="fa fa-twitter fa-2x" id="twitter2"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>507</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+
+                <div class="card-body" style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Likes<i class="fa fa-youtube-play fa-2x" id="youtube"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>107</h1>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card center-block" style="width: 18rem; color: white; background-color:hsl(228, 28%, 20%); border-radius: 10px; width: 330px">
+                <div class="card-body" style="height: 150px;">
+                    <br>
+                    <h5 class="card-title" style="margin-left: 30px">Total Views<i class="fa fa-youtube-play fa-2x" id="youtube2"></i></h5>
+                    <div class="card-text" style="margin-left: 30px">
+                        <h1>1407</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
 </body>

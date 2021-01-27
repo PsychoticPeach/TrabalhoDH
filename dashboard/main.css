@@ -1,2 +1,209 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 /*# sourceMappingURL=main.css.map */
+
+#facebook1 {
+    top: 5px;
+    left: 130px;
+    position: relative;
+    color: hsl(208, 92%, 53%);
+}
+
+#facebook {
+    top: 5px;
+    left: 170px;
+    position: relative;
+    color: hsl(208, 92%, 53%);
+}
+
+.facebook {
+    border-top: 5px solid hsl(208, 92%, 53%);
+    border-radius: 5px;
+}
+
+.fa-facebook-official {
+    top: 28px;
+    right: 50px;
+    position: relative;
+    color: hsl(208, 92%, 53%);
+}
+
+#twitter {
+    top: 5px;
+    left: 130px;
+    position: relative;
+    color: hsl(203, 89%, 53%);
+}
+
+#twitter2 {
+    top: 5px;
+    left: 170px;
+    position: relative;
+    color: hsl(203, 89%, 53%);
+}
+
+.twitter {
+    border-top: 5px solid hsl(203, 89%, 53%);
+    border-radius: 5px;
+}
+
+.fa-twitter {
+    top: 28px;
+    right: 50px;
+    position: relative;
+    color: hsl(203, 89%, 53%);
+}
+
+#instagram {
+    top: 5px;
+    left: 170px;
+    position: relative;
+    color: hsl(329, 70%, 58%);
+}
+
+#instagram2 {
+    top: 5px;
+    left: 130px;
+    position: relative;
+    color: hsl(329, 70%, 58%);
+}
+
+.instagram {
+    border-top: 5px solid hsl(329, 70%, 58%);
+    border-radius: 5px;
+}
+
+.fa-instagram {
+    top: 28px;
+    right: 65px;
+    position: relative;
+    color: hsl(329, 70%, 58%);
+}
+
+#youtube2 {
+    top: 5px;
+    left: 130px;
+    position: relative;
+    color: hsl(348, 97%, 39%);
+}
+
+#youtube {
+    top: 5px;
+    left: 170px;
+    position: relative;
+    color: hsl(348, 97%, 39%);
+}
+
+.youtube {
+    border-top: 5px solid hsl(348, 97%, 39%);
+    border-radius: 5px;
+}
+
+.fa-youtube-play {
+    top: 30px;
+    right: 55px;
+    position: relative;
+    color: hsl(348, 97%, 39%);
+}
+
+h5 {
+    color: white;
+}
+
+.card-body:hover {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.144);
+}
+
+.onoffswitch {
+    position: relative;
+    width: 90px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1;
+    color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE;
+    color: #000000;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 18px;
+    margin: 6px;
+    background: hsl(230, 17%, 14%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 56px;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+.pull-right {
+    margin-top: 20px;
+}
+
+.dark-mode {
+    background: hsl(225, 100%, 98%);
+}
