@@ -1,0 +1,47 @@
+const toggleColorMode = e => {
+    if (e.currentTarget.classList.contains("light--hidden")) {
+        document.documentElement.setAttribute("color-mode", "light");
+        localStorage.setItem("color-mode", "light");
+        return;
+    }
+    document.documentElement.setAttribute("color-mode", "dark");
+    localStorage.setItem("color-mode", "dark");
+};
+
+const toggleColorButtons = document.querySelectorAll(".color-mode__btn");
+
+toggleColorButtons.forEach(btn => {
+    btn.addEventListener("click", toggleColorMode);
+})
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('color-mode', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
+    } else {
+        document.documentElement.setAttribute('color-mode', 'light');
+        localStorage.setItem('theme', 'light'); //add this
+    }
+}
+
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
