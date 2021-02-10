@@ -1,9 +1,10 @@
-.container{
+.container {
     display: grid;
-    grid-template-rows: 7% 30% 5% 40% 20% 20% ;
+    grid-template-rows: 7% 30% 5% 40% 20% 20%;
     grid-template-columns: repeat(4, 25%);
 }
-.container1{
+
+.container1 {
     width: 50%;
     border: 5px;
     padding: 7%;
@@ -11,17 +12,20 @@
     border-radius: 10px;
     box-shadow: 5px 10px 20px $light-gray;
 }
-.container2{
+
+.container2 {
     background-color: $light-grayish-blue;
     width: 70%;
     border: 5px;
     margin-top: 10%;
     margin-left: 18%;
 }
-.container3{
-    width:50%;
+
+.container3 {
+    width: 50%;
 }
-.container4{
+
+.container4 {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -34,7 +38,8 @@
     grid-column: 3;
     grid-row: 6;
 }
-.container5{
+
+.container5 {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -47,7 +52,8 @@
     grid-column: 4;
     grid-row: 6;
 }
-.container6{
+
+.container6 {
     position: absolute;
     margin-left: 75%;
     margin-top: 14%;
@@ -56,7 +62,8 @@
     grid-column: 4;
     grid-row: 6;
 }
-.about{
+
+.about {
     margin-top: 40%;
     margin-left: 60%;
     grid-column: 2;
@@ -64,7 +71,8 @@
     align-items: right;
     display: flex;
 }
-.jobs{
+
+.jobs {
     margin-top: 6%;
     margin-left: 60%;
     grid-column: 2;
@@ -72,7 +80,8 @@
     align-items: right;
     display: flex;
 }
-.press{
+
+.press {
     margin-top: 6%;
     margin-left: 60%;
     grid-column: 2;
@@ -80,7 +89,8 @@
     align-items: right;
     display: flex;
 }
-.blog{
+
+.blog {
     margin-top: 6%;
     margin-left: 60%;
     grid-column: 2;
@@ -88,7 +98,8 @@
     align-items: right;
     display: flex;
 }
-.header{
+
+.header {
     font-family: $font-primary;
     font-weight: 400, 700;
     margin-left: 4%;
@@ -97,20 +108,22 @@
     grid-column: 1/6;
     grid-row: 1;
 }
-.curve{
+
+.curve {
     margin-top: 1%;
     grid-column: 1/6;
     grid-row: 3;
     background-image: url(bg-curve-desktop.svg);
 }
-.story{
-    
+
+.story {
     padding-left: 10%;
     background: white;
     grid-column: 3/6;
     grid-row: 2;
 }
-.story2{
+
+.story2 {
     margin-top: 15%;
     padding-left: 8%;
     float: auto;
@@ -120,75 +133,87 @@
     grid-column: 1/3;
     grid-row: 2;
 }
-.getstarted1{
+
+.getstarted1 {
     padding-left: 10%;
     background: $light-grayish-blue;
     grid-column: 3/6;
     grid-row: 4;
 }
-.cor{
+
+.cor {
     background-color: $light-grayish-blue;
 }
-.getstarted2{
+
+.getstarted2 {
     width: 100%;
     padding: 7%;
     background: $light-grayish-blue;
     grid-column: 1/3;
     grid-row: 4;
 }
-.footer{
-    height: 400px;
+
+.footer {
+    height: 450px;
     background: $very-dark-blue-1;
     grid-column: 1/-1;
     grid-row: 6;
 }
-.earlyaccess{
+
+.earlyaccess {
     padding-left: 10%;
     background: $desaturated-blue;
     grid-column: 1/4;
     grid-row: 5;
 }
-.earlyaccess2{
+
+.earlyaccess2 {
     margin-top: 0%;
     padding-right: 10%;
     background: $desaturated-blue;
     grid-column: 3/6;
     grid-row: 5;
 }
-body{
+
+body {
     padding: 0%;
     margin: 0%;
     font-family: $font-primary;
     font-weight: 400;
 }
-.btn{
+
+.btn {
     margin: 1%;
     float: right;
     border: none;
-    font-size:130%;
+    font-size: 130%;
     cursor: pointer;
     outline: none;
     transition-duration: 0.1s;
 }
-.btn:active{
+
+.btn:active {
     transform: translateY(1px);
 }
-.btn2{
+
+.btn2 {
     border: none;
     cursor: pointer;
 }
-.illustration-1{
+
+.illustration-1 {
     display: flex;
     justify-content: flex-start;
     max-width: 95%;
     max-height: 100%;
-    
 }
-.arrow{
+
+.arrow {
     width: 10%;
     margin-left: 3%;
 }
-.illustration-2{
+
+.illustration-2 {
     position: relative;
     display: flex;
     max-width: 90%;
@@ -196,60 +221,71 @@ body{
     float: left;
     margin-top: 10%;
 }
-.avatar{
+
+.avatar {
     margin-top: 2%;
     position: absolute;
     border-radius: 50%;
     width: 4%;
 }
-.h1{
+
+.h1 {
     font-size: 100%;
     margin-left: 7%;
     color: $light-grayish-blue;
     font-family: $font-primary;
     font-weight: 100;
 }
-h2{
+
+h2 {
     font-size: 230%;
     color: $very-dark-blue-1;
     margin-bottom: 5%;
     margin-block-end: auto;
 }
-.h2{
+
+.h2 {
     margin-top: 20%;
     margin-bottom: 6%;
     color: $light-grayish-blue;
 }
-h3{
+
+h3 {
     font-size: 120%;
     font-weight: 400;
 }
-.h3{
+
+.h3 {
     color: $light-grayish-blue;
 }
-h1{
+
+h1 {
     font-size: 100%;
     font-family: $font-primary;
 }
-h4{
-    margin:0%;
+
+h4 {
+    margin: 0%;
     font-weight: bold;
     font-size: 90%;
     font-family: $font-primary;
 }
-.h4{
+
+.h4 {
     font-size: 110%;
     font-weight: 50;
     font-family: $font-primary;
     color: $light-grayish-blue;
 }
-h5{
-    margin-top:2%;
+
+h5 {
+    margin-top: 2%;
     font-size: 80%;
     font-weight: 400;
     font-family: $font-primary;
 }
-h6{
+
+h6 {
     margin-top: 20%;
     margin-bottom: 7%;
     font-size: 200%;
@@ -257,13 +293,15 @@ h6{
     font-family: $font-primary;
     color: $light-grayish-blue;
 }
-.h6{
+
+.h6 {
     font-size: 120%;
     font-weight: 100;
     font-family: $font-primary;
     color: $light-grayish-blue;
 }
-.email{
+
+.email {
     border: solid 1px;
     border-color: $light-gray;
     border-radius: 3px;
@@ -271,7 +309,8 @@ h6{
     height: 40px;
     width: 330px;
 }
-.email2{
+
+.email2 {
     margin-left: 26%;
     margin-top: 15%;
     border: solid 1px $light-gray;
@@ -281,7 +320,8 @@ h6{
     width: 65%;
     box-shadow: 5px 10px 20px rgba($color: #3e3e53, $alpha: 1.0);
 }
-.phone{
+
+.phone {
     position: absolute;
     width: 80%;
     display: flex;
@@ -289,14 +329,16 @@ h6{
     margin-top: 180px;
     margin-left: 3%;
 }
-.mail{
+
+.mail {
     position: absolute;
     width: 90%;
     margin-left: 1%;
     margin-top: 16%;
     grid-column: 2;
 }
-.contact{
+
+.contact {
     margin-top: 40%;
     margin-left: 60%;
     align-items: right;
@@ -304,7 +346,8 @@ h6{
     grid-column: 3;
     grid-row: 6;
 }
-.terms{
+
+.terms {
     margin-top: 6%;
     margin-left: 60%;
     align-items: right;
@@ -312,17 +355,20 @@ h6{
     grid-column: 3;
     grid-row: 6;
 }
-.privacy{
+
+.privacy {
     margin-top: 6%;
     margin-left: 60%;
     grid-column: 3;
     grid-row: 6;
 }
-.social{
+
+.social {
     margin-top: 20%;
     margin-left: 30%;
 }
-.btn3{
+
+.btn3 {
     border: none;
     border-radius: 3px;
     background: $bright-blue;
@@ -336,7 +382,8 @@ h6{
     outline: none;
     cursor: pointer;
 }
-.btn6{
+
+.btn6 {
     cursor: pointer;
     border: none;
     border-radius: 3px;
@@ -352,27 +399,30 @@ h6{
     outline: none;
     box-shadow: 5px 10px 20px rgba($color: #3e3e53, $alpha: 1.0);
 }
-.btn4{
+
+.btn4 {
     margin: 0%;
     position: relative;
     left: 570%;
     border: none;
     background: inherit;
-    cursor:pointer;
+    cursor: pointer;
     outline: none;
 }
-.btn5{
-    margin:0%;
+
+.btn5 {
+    margin: 0%;
     position: relative;
     border: none;
     border-bottom: 2px solid $moderate-cyan;
     background: inherit;
     height: 3%;
     width: 30%;
-    cursor:pointer;
+    cursor: pointer;
     outline: none;
 }
-.btn-footer{
+
+.btn-footer {
     width: 20%;
     height: 100%;
     cursor: pointer;
@@ -382,7 +432,8 @@ h6{
     color: $light-grayish-blue;
     outline: none;
 }
-.btn-footer1{
+
+.btn-footer1 {
     height: 0%;
     cursor: pointer;
     border: none;
@@ -390,24 +441,27 @@ h6{
     font-family: $font-primary;
     outline: none;
 }
-.btn-footer2{
+
+.btn-footer2 {
     height: 0;
-    padding:1px;
+    padding: 1px;
     cursor: pointer;
     border: none;
-    background: hsl(243,85%,12%);
+    background: hsl(243, 85%, 12%);
     font-family: "Open Sans", sans-serif;
     color: hsl(240, 75%, 98%);
     outline: none;
 }
-.letras{
+
+.letras {
     align-items: right;
     display: flex;
     font-size: 113%;
     color: $moderate-cyan;
     display: inline-block;
 }
-.logo{
+
+.logo {
     align-items: right;
     display: flex;
     float: left;
@@ -416,11 +470,12 @@ h6{
     margin-left: 5%;
 }
 
-.attribution{
+.attribution {
     width: 70%;
-    font-size: 70%; 
+    font-size: 70%;
     text-align: center;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
